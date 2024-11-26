@@ -1,0 +1,12 @@
+1-console.log nima->bu javascriptda konsolga ma'lumot chiqarish uchun ishlatiladigan asosiy metod
+2-O‘zgaruvchilar e’lon qilish uchun quyidagilar
+  --var
+  --let
+  --const – o‘zgarmas o‘zgaruvchi
+3-Number-> javaScriptda barcha sonlar number turiga kiradi
+4-String->matnlarni ifodalash uchun ishlatiladi.
+5-Boolean->true (rost) yoki false (yolg'on) 
+6-Undefined->qiymat o‘zgaruvchi e’lon qilingan
+7-Null->qiymati "bo‘sh" yoki "hech narsa" degan ma’noni anglatadi
+8-BigInt->juda katta yoki kichik sonlarni ifodalash uchun ishlatiladi.
+
