@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+      integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/css/uikit.min.css"
+    />
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <header class="header bg-fb p-[29px_0]">
+      <div class="container1 flex items-center justify-between">
+        <a href="index.html">
+          <img src="./svg/logo.svg" alt="logo" />
+        </a>
+        <div class="flex items-center gap-5 max-[555px]:hidden">
+          <button class="btn hover:bg-[#3c459a]">Вход</button>
+          <button
+            class="border border-solid border-b6 p-[12px_24px] hover:bg-b6 hover:text-white hover:transition-all hover:duration-500 rounded-[4px] text-b6"
+          >
+            Регистрация
+          </button>
+        </div>
+        <label
+          class="menu-burger hidden text-[24px] max-[555px]:block"
+          for="check"
+          ><i class="fa-solid fa-bars"></i
+        ></label>
+       
+      </div>
+    </header>
+    <!-- menu-bars -->
+    <input type="checkbox" id="check" class="hidden" menu-bar />
+    <div class="menu-bar flex">
+      <label class="w-[20%] h-[100vh] backdrop-blur-sm" for="check">
+        <div></div>
+      </label>
+
+      <div class="flex flex-col gap-4 bg-fb p-[40px_32px] rounded w-[80%]">
+        <label class="absolute top-2 text-[24px] pb-[10px] right-5 menu-x" for="check"
+        ><i class="fa-solid fa-xmark"></i
+      ></label>
+        <button class="btn">Вход для соискателя</button>
+        <button class="btn">Вход для директора</button>
+        <button
+          class="border border-d6 p-[12px_24px] text-d6 text-[15px] transition-all duration-500 font-[400] rounded-[4px]"
+        >
+          Регистрация
+        </button>
+        <div class="flex flex-col gap-6 text-[15px] font-[400] text-a29">
+          <a href="#">Пользовательское соглашение</a>
+          <a href="#">Правовая информация</a>
+          <a href="#">Контакты</a>
+          <a href="#">Помощь (FAQ)</a>
+          <a class="underline text-b6" href="#">Служба поддержки</a>
+        </div>
+      </div>
+    </div>
+    <!-- header end -->
+
+    <section class="bg-fb wrapper p-[25px] rounded-[0_0_10px_10px]">
+      <div
+        class="container1 flex items-center justify-between max-[1107px]:flex-col-reverse max-[1107px]:gap-5"
+      >
+        <div class="max-[1107px]:text-center">
+          <h1
+            class="font-[900] text-[50px] max-w-[674px] uppercase text-a29 max-[1229px]:text-[40px] max-[680px]:text-[30px] max-[680px]:font-[600] max-[373px]:text-[25px] max-[310px]:text-[20px] max-[310px]:font-[500]"
+          >
+            команды мечты создаются здесь
+          </h1>
+          <p
+            class="p-[12px_0_32px_0] font-[400] text-[15px] text-a29 max-w-[316px] max-[1107px]:m-auto"
+          >
+            помощник в поиске работы и сотрудников в сфере образования
+          </p>
+          <button
+            class="btn hover:bg-[#3c459a] max-[1107px]:w-[50%] max-[600px]:w-full"
+          >
+            Начать
+          </button>
+        </div>
+        <img class="" src="./img/wrapper.png" alt="wrapper" />
+      </div>
+    </section>
+    <!-- wrappere end -->
+
+    <section class="mt-[48px] overflow-x-auto">
+      <div class="container1 grid grid-cols-3 gap-10 max-[1000px]:w-[1000px]">
+        <div class="bg-fb rounded-[16px] text-center p-[67.5px_0]">
+          <img class="m-auto w-[188px]" src="./img/card-1.png" alt="" />
+          <h1 class="text-[50px] font-[900] text-a29 max-[800px]:text-[35px]">
+            67
+          </h1>
+          <p class="text-[18px] font-[600] text-a51 max-w-[180px] m-auto">
+            предложений о работе
+          </p>
+        </div>
+        <div class="bg-fb rounded-[16px] text-center p-[67.5px_0]">
+          <img class="m-auto w-[188px]" src="./img/card-2.png" alt="" />
+          <h1 class="text-[50px] font-[900] text-a29 v">180</h1>
+          <p class="text-[18px] font-[600] text-a51 max-w-[180px] m-auto">
+            размещенных резюме
+          </p>
+        </div>
+        <div class="bg-fb rounded-[16px] text-center p-[67.5px_0]">
+          <img class="m-auto w-[188px]" src="./img/card-3.png" alt="" />
+          <h1 class="text-[50px] font-[900] text-a29 max-[800px]:text-[35px]">
+            113
+          </h1>
+          <p class="text-[18px] font-[600] text-a51 max-w-[180px] m-auto">
+            приглашений на собеседование 
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[41px]">
+      <div
+        class="container1 flex items-center justify-between gap-10 max-[1040px]:flex-col"
+      >
+        <div
+          class="w-full flex items-center justify-between rounded-[16px] bg-fb p-[30px_40px] max-[1100px]:p-[20px_20px]"
+        >
+          <div>
+            <h2 class="text-[18px] font-[600] text-a29">Для работодателей</h2>
+            <p
+              class="p-[12px_0_18px_0] text-[15px] font-[400] text-a29 max-w-[400px] max-[310px]:text-[14px]"
+            >
+              Доступ к банку резюме предоставляется администрациям школ города
+              Москвы. Если вы являетесь директором московской школы, вы можете
+              войти в банк резюме, используя единую учетную запись ЕКИС.
+            </p>
+            <button class="btn hover:bg-[#3c459a] max-[530px]:w-full">
+              Вход
+            </button>
+          </div>
+          <img
+            class="-mt-[30px] max-[600px]:hidden"
+            src="./img/Rectang-1.png"
+            alt=""
+          />
+        </div>
+        <div
+          class="w-full flex items-center justify-between rounded-[16px] bg-fb p-[30px_40px] max-[1100px]:p-[20px_20px]"
+        >
+          <div>
+            <h2 class="text-[18px] font-[600] text-a29">Для работодателей</h2>
+            <p
+              class="p-[12px_0_18px_0] text-[15px] font-[400] text-a29 max-w-[400px] max-[310px]:text-[14px]"
+            >
+              Доступ к банку резюме предоставляется администрациям школ города
+              Москвы. Если вы являетесь директором московской школы, вы можете
+              войти в банк резюме, используя единую учетную запись ЕКИС.
+            </p>
+            <div class="flex gap-3 max-[530px]:flex-col">
+              <button class="btn hover:bg-[#3c459a] max-[530px]:w-full">
+                Вход
+              </button>
+              <button
+                class="border border-solid border-b6 p-[12px_24px] hover:bg-b6 hover:text-white hover:transition-all hover:duration-500 rounded-[4px] text-b6"
+              >
+                Регистрация
+              </button>
+            </div>
+          </div>
+          <img
+            class="-mt-[30px] max-[600px]:hidden"
+            src="./img/Rectangle-2.png"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[80px] bg-fb max-[945px]:mt-[40px]">
+      <div
+        class="container1 flex items-center justify-between p-[27px_0] max-[945px]:flex-col-reverse max-[945px]:gap-5"
+      >
+        <div
+          class="flex flex-col w-[70%] gap-[18px] pr-[192px] max-[1140px]:pr-[100px] max-[1020px]:pr-[40px] max-[945px]:w-full max-[945px]:p-[0]"
+        >
+          <div class="bg-f9 rounded-[16px]">
+            <div class="p-[24px_0_24px_40px] max-[350px]:p-[20px]">
+              <button
+                class="p-[5px_15px] bg-white rounded-[8px] text-f9 text-[18px] font-[600]"
+              >
+                1
+              </button>
+              <div class="pt-[50px]">
+                <h3 class="text-[24px] font-[900] text-white">Запишитесь</h3>
+                <p class="font-[400] text-[15px] text-[#fff]">
+                  Запишитесьна консультацию
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="bg-d6 rounded-[16px]">
+            <div class="p-[24px_0_24px_40px] max-[350px]:p-[20px]">
+              <button
+                class="p-[5px_15px] bg-white rounded-[8px] text-f9 text-[18px] font-[600]"
+              >
+                2
+              </button>
+              <div class="pt-[50px]">
+                <h3 class="text-[24px] font-[900] text-white">пройдите курс</h3>
+                <p class="font-[400] text-[15px] text-[#fff]">
+                  в комфортном режиме
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="pr-[80px] max-[1175px]:pr-[40px] max-[1020px]:pr-[20px] max-[945px]:flex max-[945px]:flex-col max-[945px]:text-center max-[945px]:p-[0] max-[945px]:w-full"
+        >
+          <h2
+            class="uppercase text-[32px] font-[900] text-a29 max-[320px]:text-[25px]"
+          >
+            welcome-курс
+          </h2>
+          <p
+            class="text-[15px] font-[400] max-w-[293px] text-[#000] p-[18px_0_44px_0] max-[945px]:m-auto"
+          >
+            Запишитесь, чтобы пройти бесплатный welcome-курс.
+          </p>
+          <button
+            class="btn hover:bg-[#3c459a] max-[945px]:w-[70%] max-[945px]:m-auto max-[530px]:w-full"
+          >
+            Записаться
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="m-[80px_0] max-[800px]:mt-[30px]">
+      <div class="container1">
+        <div
+          class="flex justify-between items-start max-[800px]:flex-col max-[800px]:text-center max-[800px]:gap-5 max-[800px]:items-center"
+        >
+          <h1 class="text-[32px] font-[900] text-a29 max-w-[204px]">
+            пройдите диагностику
+          </h1>
+          <div class="max-w-[332px]">
+            <p
+              class="text-[15px] font-[400] text-a29 opacity-[0.4] max-[800px]:text-center"
+            >
+              Вы можете пройти профессиональную диагностику на нашем сайте и
+              получить результаты сразу после ее прохождения.
+            </p>
+            <button
+              class="btn max-[800px]:hidden mt-[32px] hover:bg-[#3c459a] max-[1107px]:w-[50%] max-[600px]:w-full"
+            >
+              Пройти диагностику
+            </button>
+          </div>
+          <p class="text-[15px] max-[800px]:hidden max-w-[122px] font-[400]">
+            В любое время и бесплатно
+          </p>
+        </div>
+        <div class="mt-10 overflow-x-auto">
+          <div class="flex items-end justify-between max-[1135px]:w-[1135px]">
+            <div
+              class="bg-fb rounded-[16px] flex flex-col justify-center items-center gap-[61px] p-[71px_70px_49px_70px]"
+            >
+              <img
+                class="w-[97px] h-[110px]"
+                src="./img/в любое время.png"
+                alt=""
+              />
+              <h2
+                class="text-[24px] font-[900] text-a29 max-w-[119px] m-auto text-center"
+              >
+                в любое время
+              </h2>
+            </div>
+            <div
+              class="bg-fb rounded-[16px] text-center flex flex-col gap-[30px] p-[0_63px_50px_63px]"
+            >
+              <img
+                class="w-[97px] -mt-[60px] h-[110px]"
+                src="./img/прямо.png"
+                alt=""
+              />
+              <h2
+                class="text-[24px] font-[900] text-a29 max-w-[119px] m-auto text-center"
+              >
+                прямо на сайте
+              </h2>
+            </div>
+            <div
+              class="bg-fb rounded-[16px] text-center flex flex-col gap-[20px] p-[0_63px_50px_63px]"
+            >
+              <img
+                class="w-[57px] -mt-[60px] h-[110px] m-auto"
+                src="./img/бесплатно.png"
+                alt=""
+              />
+              <h2
+                class="text-[24px] font-[900] text-a29 max-w-[119px] m-auto text-center"
+              >
+                бесплатно
+              </h2>
+            </div>
+            <div
+              class="bg-fb rounded-[16px] flex flex-col justify-center items-center gap-[61px] p-[71px_70px_49px_70px]"
+            >
+              <img
+                class="w-[97px] h-[110px] m-auto"
+                src="./img/результаты.png"
+                alt=""
+              />
+              <h2
+                class="text-[24px] font-[900] text-a29 max-w-[119px] m-auto text-center"
+              >
+                результаты
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[80px]">
+      <div class="container1">
+        <h2 class="text-[32px] font-[900] text-a29 text-center">
+          Анонс мероприятий
+        </h2>
+
+        <div class="max-[970px]:overflow-x-auto mt-[40px]">
+          <div class="flex gap-10 justify-between max-[970px]:w-[1000px]">
+            <div class="w-[66%] max-[965px]:w-full bg-fb rounded-[16px]">
+              <img class="w-full h-[270px]" src="./img/Анонс-1.png" alt="" />
+              <div
+                class="p-[25px_0_30px_20px] flex flex-col gap-3 text-[15px] font-[400]"
+              >
+                <p class="text-[#a0a0a0]">28.06.2023</p>
+                <h3 class="text-[18px] font-[600] text-a29 max-w-[440px]">
+                  Современная методология разработки оказалась ошибочной
+                </h3>
+                <p class="text-d3d">
+                  Частотность поисковых запросов оказалась ошибочной
+                </p>
+              </div>
+            </div>
+            <div class="w-[36%] bg-fb rounded-[16px]">
+              <img class="w-full h-[270px]" src="./img/Анонс-2.png" alt="" />
+              <div
+                class="p-[25px_0_30px_20px] flex flex-col gap-3 text-[15px] font-[400]"
+              >
+                <p class="text-[#a0a0a0]">28.06.2023</p>
+                <h3 class="text-[18px] font-[600] text-a29 max-w-[320px]">
+                  Современная методология разработки оказалась ошибочной
+                </h3>
+                <p class="text-d3d">
+                  Частотность поисковых запросов оказалась ...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="max-[970px]:overflow-x-auto">
+          <div class="grid grid-cols-3 gap-10 mt-[40px] max-[970px]:w-[1000px]">
+            <div class="bg-fb rounded-[16px]">
+              <img class="w-full h-[270px]" src="./img/Анонс-3.png" alt="" />
+              <div
+                class="p-[25px_0_30px_20px] flex flex-col gap-3 text-[15px] font-[400]"
+              >
+                <p class="text-[#a0a0a0]">28.06.2023</p>
+                <h3 class="text-[18px] font-[600] text-a29 max-w-[320px]">
+                  Современная методология разработки оказалась ошибочной
+                </h3>
+                <p class="text-d3d">
+                  Частотность поисковых запросов оказалась ...
+                </p>
+              </div>
+            </div>
+            <div class="bg-fb rounded-[16px]">
+              <img class="w-full h-[270px]" src="./img/Анонс-4.png" alt="" />
+              <div
+                class="p-[25px_0_30px_20px] flex flex-col gap-3 text-[15px] font-[400]"
+              >
+                <p class="text-[#a0a0a0]">28.06.2023</p>
+                <h3 class="text-[18px] font-[600] text-a29 max-w-[320px]">
+                  Современная методология разработки оказалась ошибочной
+                </h3>
+                <p class="text-d3d">
+                  Частотность поисковых запросов оказалась ...
+                </p>
+              </div>
+            </div>
+            <div class="bg-fb rounded-[16px]">
+              <img class="w-full h-[270px]" src="./img/Анонс-5.png" alt="" />
+              <div
+                class="p-[25px_0_30px_20px] flex flex-col gap-3 text-[15px] font-[400]"
+              >
+                <p class="text-[#a0a0a0]">28.06.2023</p>
+                <h3 class="text-[18px] font-[600] text-a29 max-w-[320px]">
+                  Современная методология разработки оказалась ошибочной
+                </h3>
+                <p class="text-d3d">
+                  Частотность поисковых запросов оказалась ...
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="bg-fb wrapper p-[25px] mt-[40px] rounded-[0_0_10px_10px]">
+      <div
+        class="container1 flex items-center justify-between p-[0_80px] max-[800px]:p-[0] max-[1107px]:flex-col max-[1107px]:gap-5"
+      >
+        <div class="max-[1107px]:text-center">
+          <h1
+            class="font-[900] text-[50px] max-w-[674px] uppercase text-a29 max-[1229px]:text-[40px] max-[680px]:text-[30px] max-[680px]:font-[600] max-[373px]:text-[25px] max-[310px]:text-[20px] max-[310px]:font-[500]"
+          >
+            карьерная консультация
+          </h1>
+          <p
+            class="p-[12px_0_32px_0] font-[400] text-[15px] text-a29 max-w-[316px] max-[1107px]:m-auto"
+          >
+            Запишитесь, чтобы получить бесплатную карьерную консультацию.
+          </p>
+          <button
+            class="btn hover:bg-[#3c459a] max-[1107px]:w-[50%] max-[800px]:w-full"
+          >
+            Записаться
+          </button>
+        </div>
+        <img class="max-[800px]:hidden" src="./img/career.png" alt="wrapper" />
+      </div>
+    </section>
+
+    <section class="mt-[40px]">
+      <div
+        class="container1 flex items-center justify-between gap-10 max-[932px]:flex-col"
+      >
+        <div class="bg-f9 rounded-[16px] w-full">
+          <div
+            class="p-[24px_0_24px_40px] max-[350px]:p-[20px] max-[300px]:p-[13px]"
+          >
+            <button
+              class="p-[5px_15px] bg-white rounded-[8px] text-f9 text-[18px] font-[600]"
+            >
+              1
+            </button>
+            <div class="pt-[50px]">
+              <h3 class="text-[24px] font-[900] text-white">Запишитесь</h3>
+              <p class="font-[400] text-[15px] text-[#fff]">
+                Запишитесьна консультацию
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-d6 w-full rounded-[16px]">
+          <div
+            class="p-[24px_0_24px_40px] max-[350px]:p-[20px] max-[300px]:p-[13px]"
+          >
+            <button
+              class="p-[5px_15px] bg-white rounded-[8px] text-d6 text-[18px] font-[600]"
+            >
+              2
+            </button>
+            <div class="pt-[50px]">
+              <h3 class="text-[24px] font-[900] text-white">пройдите опрос</h3>
+              <p class="font-[400] text-[15px] text-[#fff]">в удобное время</p>
+            </div>
+          </div>
+        </div>
+        <div class="bg-f75 w-full rounded-[16px]">
+          <div
+            class="p-[24px_0_24px_40px] max-[350px]:p-[20px] max-[300px]:p-[13px]"
+          >
+            <button
+              class="p-[5px_15px] bg-white rounded-[8px] text-f75 text-[18px] font-[600]"
+            >
+              3
+            </button>
+            <div class="pt-[50px]">
+              <h3 class="text-[24px] font-[900] text-white">результаты</h3>
+              <p class="font-[400] text-[15px] text-[#fff]">
+                получите на ваш e-mail
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-[80px]">
+      <div class="container1 flex gap-10 max-[930px]:flex-col ">
+        <div class="basis-1/3 max-[930px]:flex max-[930px]:flex-col max-[930px]:items-center">
+          <h1 class="text-[32px] font-[900] text-a29 max-[1138px]:text-[25px] max-[1138px]:font-[600]">Остались вопросы?</h1>
+
+          <p class="p-[16px_0_32px_0] text-[15px] font-[400] text-a29 max-w-[460px] max-[930px]:text-center" >
+            Ответы на часто задаваемые вопросы здесь. Специалисты службы
+            поддержки банка резюме могут оказывать вам помощь в заполнении
+            резюме.Если у вас возникли сложности или вопросы, вы можете
+            связаться с нами.
+          </p>
+          <button class="btn hover:bg-[#3c459a] max-[500px]:w-full">Обратная связь</button>
+        </div>
+        <div class="basis-2/3 flex flex-col gap-9 ">
+          <ul uk-accordion class="border p-[24px] border-solid border-f3 rounded-[16px] bg-fb">
+            <li  class="uk-open ">
+              <a class="uk-accordion-title text-[18px] font-[600] text-a29" href>Как пользоваться Банком резюме?</a>
+              <div class="uk-accordion-content">
+                <p>
+                  Ответы на часто задаваемые вопросы здесь. Специалисты службы поддержки банка резюме могут оказывать вам помощь в заполнении резюме. 
+                  <span>Если у вас возникли сложности или вопросы, вы можете связаться с нами.</span>
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul uk-accordion class="border p-[24px] border-solid border-f3 rounded-[16px] bg-fb">
+            <li>
+              <a class="uk-accordion-title  text-[18px] font-[600] text-a29" href>Как пользоваться Банком резюме?</a>
+              <div class="uk-accordion-content">
+                <p class="text-[15px] font-[400] text-a29">
+                  Ответы на часто задаваемые вопросы здесь. Специалисты службы поддержки банка резюме могут оказывать вам помощь в заполнении резюме. 
+                  Если у вас возникли сложности или вопросы, вы можете связаться с нами.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul uk-accordion class="border p-[24px] border-solid border-f3 rounded-[16px] bg-fb">
+            <li>
+              <a class="uk-accordion-title  text-[18px] font-[600] text-a29" href>Как пользоваться Банком резюме?</a>
+              <div class="uk-accordion-content">
+                <p class="text-[15px] font-[400] text-a29">
+                  Ответы на часто задаваемые вопросы здесь. Специалисты службы поддержки банка резюме могут оказывать вам помощь в заполнении резюме. 
+                  Если у вас возникли сложности или вопросы, вы можете связаться с нами.
+                </p>
+              </div>
+            </li>
+          </ul>
+          <ul uk-accordion class="border p-[24px] border-solid border-f3 rounded-[16px] bg-fb">
+            <li>
+              <a class="uk-accordion-title  text-[18px] font-[600] text-a29" href>Как пользоваться Банком резюме?</a>
+              <div class="uk-accordion-content">
+                <p class="text-[15px] font-[400] text-a29">
+                  Ответы на часто задаваемые вопросы здесь. Специалисты службы поддержки банка резюме могут оказывать вам помощь в заполнении резюме. 
+                  Если у вас возникли сложности или вопросы, вы можете связаться с нами.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-fb mt-[120px] max-[830px]:mt-[30px]">
+      <div class="container1 p-[39px_0_32px_0]">
+        <div class="grid grid-cols-4 gap-[100px] max-[1132px]:gap-[50px] max-[850px]:gap-[20px] max-[811px]:grid-cols-1" >
+         <button class=" p-[12px_16px] text-[15px] font-[400] text-b6">Служба поддержки</button>
+          <div class="flex flex-col gap-3 text-[15px] font-[400] text-a29 max-[811px]:text-center">
+            <a class="text-a29" href="#">Пользовательское соглашение</a>
+            <a href="#">Правовая информация</a>
+          </div>
+          <div class="flex flex-col gap-3 text-[15px] font-[400] text-a29 max-[811px]:text-center">
+            <a href="#">Контакты</a>
+            <a href="#">Помощь (FAQ)</a>
+          </div>
+          <div class="flex items-center gap-3 justify-end max-[811px]:justify-center">
+            <img src="./svg/footer-img-1.svg" alt="">
+            <img src="./svg/footer-img-2.svg" alt="">
+          </div>
+        </div>
+        <div class="text-center pt-[48px] text-[14px] font-[400] text-[#7a7a7a]">
+          <p>© Департамент образования и науки г. Москвы, 2023</p>
+          <p>При полном или частичном использовании материалов с официальных сайтов Правительства Москвы ссылка на источник обязательна.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/uikit@3.21.16/dist/js/uikit-icons.min.js"></script>
+  </body>
+</html>

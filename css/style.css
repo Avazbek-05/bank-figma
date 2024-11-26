@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply p-[12px_24px] bg-b6 text-white text-[15px] transition-all duration-500 font-[400] rounded-[4px];
+}
+
+.container1 {
+  width: 90%;
+  margin: 0 auto;
+}
+@media (min-width: 1400px) {
+  .container1 {
+    width: 1350px;
+    margin: 0 auto;
+  }
+}
+
+
+.menu-bar {
+  position: fixed;
+  border-top: 2px solid rgb(129, 129, 129);
+  right: -100%;
+  height: calc(100vh);
+  top: 80px !important;
+  transition: 0.7s all;
+  z-index: 999;
+  width: 100%;
+}
+
+
+#check:checked ~ .menu-bar {
+  right: 0;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+}
+
